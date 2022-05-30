@@ -1,1 +1,8 @@
 
+Convert two lists into a dictionary
+
+keys = ['A', 'B', 'C']
+values = [1, 2, 3]
+
+dict = dict(zip(keys, values))
+print(dict)
